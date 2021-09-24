@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#4B8AC58C"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvRelated"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_marginEnd="20dp"
+
+        />
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/exoPlayerPost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+
+
+</LinearLayout>
